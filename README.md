@@ -13,6 +13,54 @@ ensure first that you are not exist in this branch --> go to main (git chechout 
     ---- Removing Branches from the remote repo
         git push origin --delete branchName
 
+-----------------------------------------------------------------------------
+
+Annotated tags vs Lightweight Tags 
+
+| **Tag Type**       | **Description**                                                                                   |
+|--------------------|---------------------------------------------------------------------------------------------------|
+| **Annotated Tags** | Store additional metadata such as the tagger's name, email, date, and a message.                  |
+|                    | Stored as full objects in the Git database.                                                       |
+|                    | Ideal for release versions where detailed information is needed.                                  |
+|                    | Created using `git tag -a v1.0 -m "version 1.0"`.                                                 |
+| **Lightweight Tags** | Just pointers to a specific commit without additional metadata.                                  |
+|                    | Not stored as full objects in the Git database.                                                   |
+|                    | Suitable for temporary or private tags where detailed information is not necessary.               |
+|                    | Created using `git tag v1 0`.                                                                     |
+
+
+------------------------------------------------------------------------------
+When to use Rebase 
+
+| **Use Case**                          | **Description**                                                                 |
+|---------------------------------------|---------------------------------------------------------------------------------|
+| **Clean Up Commit History**           | Combine small, incremental commits into a single, meaningful commit.            |
+| **Integrate Changes from Another Branch** | Incorporate changes from another branch into your current branch without creating a merge commit. |
+| **Keep a Linear Project History**     | Maintain a linear commit history, especially in collaborative projects.         |
+| **Update a Feature Branch**           | Update your feature branch with the latest changes from the main branch.        |
+| **Resolve Conflicts**                 | Resolve conflicts in a cleaner way by replaying your changes on top of the latest changes from another branch. |
+
+-------------------------------------------------------------------------------
+How to list tags:
+    -- using : git tag
+
+------------------------------------------------------------------------------
+How to delete tag locally and remotely:
+
+    ---- delete tag locally :
+        git tag -d tag_name
+
+
+    ---- delete tag remotely
+        git push origin --delete tag_name
+
+-------------------------------------------------------------------------------
+How to add an image in the README.md file:
+using : ![Alt Text](URL)
+![Alt Text](/images/Screenshot%202025-01-04%20150911.png)
+![Alt Text](/images/Screenshot%202025-01-04%20150921.png)
+![Alt Text](/images/Screenshot%202025-01-04%20150935.png)
+
 
 
 -------------------------------------------------------------------------------
