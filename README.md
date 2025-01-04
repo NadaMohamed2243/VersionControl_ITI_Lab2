@@ -40,6 +40,22 @@ When to use Rebase
 | **Update a Feature Branch**           | Update your feature branch with the latest changes from the main branch.        |
 | **Resolve Conflicts**                 | Resolve conflicts in a cleaner way by replaying your changes on top of the latest changes from another branch. |
 
+-------------------------------------------------------------------------------
+How to list tags:
+    -- using : git tag
+
+------------------------------------------------------------------------------
+How to delete tag locally and remotely:
+
+    ---- delete tag locally :
+        git tag -d tag_name
+
+
+    ---- delete tag remotely
+        git push origin --delete tag_name
+
+
+
 
 -------------------------------------------------------------------------------
 task steps :
