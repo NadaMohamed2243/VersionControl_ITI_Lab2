@@ -13,6 +13,23 @@ ensure first that you are not exist in this branch --> go to main (git chechout 
     ---- Removing Branches from the remote repo
         git push origin --delete branchName
 
+-----------------------------------------------------------------------------
+
+Annotated tags vs Lightweight Tags 
+
+| **Tag Type**       | **Description**                                                                                   |
+|--------------------|---------------------------------------------------------------------------------------------------|
+| **Annotated Tags** | Store additional metadata such as the tagger's name, email, date, and a message.                  |
+|                    | Stored as full objects in the Git database.                                                       |
+|                    | Ideal for release versions where detailed information is needed.                                  |
+|                    | Created using `git tag -a v1.0 -m "version 1.0"`.                                                 |
+| **Lightweight Tags** | Just pointers to a specific commit without additional metadata.                                  |
+|                    | Not stored as full objects in the Git database.                                                   |
+|                    | Suitable for temporary or private tags where detailed information is not necessary.               |
+|                    | Created using `git tag v1 0`.                                                                     |
+
+
+
 
 
 -------------------------------------------------------------------------------
