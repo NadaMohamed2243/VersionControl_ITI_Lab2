@@ -29,7 +29,10 @@ Annotated tags vs Lightweight Tags
 |                    | Created using `git tag v1 0`.                                                                     |
 
 
+------------------------------------------------------------------------------
+When to use Rebase 
 
+| **Use Case** | **Description** | |---------------------------------------|---------------------------------------------------------------------------------| | **Clean Up Commit History** | Combine small, incremental commits into a single, meaningful commit. | | **Integrate Changes from Another Branch** | Incorporate changes from another branch into your current branch without creating a merge commit. | | **Keep a Linear Project History** | Maintain a linear commit history, especially in collaborative projects. | | **Update a Feature Branch** | Update your feature branch with the latest changes from the main branch. | | **Resolve Conflicts**
 
 
 -------------------------------------------------------------------------------
