@@ -1,0 +1,1 @@
+print("Hello , this is lab2 - intake 45 ITI")
