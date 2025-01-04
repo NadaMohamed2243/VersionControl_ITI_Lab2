@@ -32,7 +32,14 @@ Annotated tags vs Lightweight Tags
 ------------------------------------------------------------------------------
 When to use Rebase 
 
-| **Use Case** | **Description** | |---------------------------------------|---------------------------------------------------------------------------------| | **Clean Up Commit History** | Combine small, incremental commits into a single, meaningful commit. | | **Integrate Changes from Another Branch** | Incorporate changes from another branch into your current branch without creating a merge commit. | | **Keep a Linear Project History** | Maintain a linear commit history, especially in collaborative projects. | | **Update a Feature Branch** | Update your feature branch with the latest changes from the main branch. | | **Resolve Conflicts** | Resolve conflicts in a cleaner way by replaying your changes on top of the latest changes from another branch. |
+| **Use Case**                          | **Description**                                                                 |
+|---------------------------------------|---------------------------------------------------------------------------------|
+| **Clean Up Commit History**           | Combine small, incremental commits into a single, meaningful commit.            |
+| **Integrate Changes from Another Branch** | Incorporate changes from another branch into your current branch without creating a merge commit. |
+| **Keep a Linear Project History**     | Maintain a linear commit history, especially in collaborative projects.         |
+| **Update a Feature Branch**           | Update your feature branch with the latest changes from the main branch.        |
+| **Resolve Conflicts**                 | Resolve conflicts in a cleaner way by replaying your changes on top of the latest changes from another branch. |
+
 
 -------------------------------------------------------------------------------
 task steps :
