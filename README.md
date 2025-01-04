@@ -11,3 +11,6 @@ to add changes to the local repo:
 git add .
 git commit -m " "
 
+to merge brabch with main 
+go to main : git chechout main
+merge : git merge [branchName]
