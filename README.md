@@ -11,6 +11,15 @@ to add changes to the local repo:
 git add .
 git commit -m " "
 
-to merge brabch with main 
+to push changes to the remote repo:
+first time:
+git push -u origin [branchName]
+other times:
+git push
+
+
+to merge branch with main 
 go to main : git chechout main
 merge : git merge [branchName]
+push to remote repo : 
+git push
