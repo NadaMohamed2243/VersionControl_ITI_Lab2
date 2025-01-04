@@ -1,8 +1,12 @@
 Lab 2 ● Write in the README.md file, how to remove the branches locally and remotely.
 
-ensure first that you are not exist in this branch --> go to main (git chechout main) ---- Removing Branches from the local repo git branch -d branchName
+ensure first that you are not exist in this branch --> go to main (git chechout main) 
 
-        -- If the branch has not been merged we also write:
+
+    ---- Removing Branches from the local repo :
+        git branch -d branchName
+
+        -- If the branch has not been merged we also write(force):
         git branch -D branchName
 
 
@@ -10,7 +14,7 @@ ensure first that you are not exist in this branch --> go to main (git chechout 
         git push origin --delete branchName
 
 
-        
+
 -------------------------------------------------------------------------------
 task steps :
 
