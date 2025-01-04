@@ -54,6 +54,12 @@ How to delete tag locally and remotely:
     ---- delete tag remotely
         git push origin --delete tag_name
 
+-------------------------------------------------------------------------------
+How to add an image in the README.md file:
+using : ![Alt Text](URL)
+![Alt Text](/images/Screenshot%202025-01-04%20150911.png)
+![Alt Text](/images/Screenshot%202025-01-04%20150921.png)
+![Alt Text](/images/Screenshot%202025-01-04%20150935.png)
 
 
 
